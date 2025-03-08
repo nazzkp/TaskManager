@@ -24,7 +24,7 @@ TaskManager is an Android application designed to help users organize and manage
 
 ## Installation
 
-1. APK is provided /apk
+1. APK is provided at /apk
 
 ## How to Use
 
@@ -35,4 +35,4 @@ TaskManager is an Android application designed to help users organize and manage
 5. You can delete or mark a task as completed by swiping it left or right.
 
 ## Schema
-1. Schema is provided /app/docs
+1. Schema is provided at /app/docs
