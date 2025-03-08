@@ -35,4 +35,4 @@ TaskManager is an Android application designed to help users organize and manage
 5. You can delete or mark a task as completed by swiping it left or right.
 
 ## Schema
-1. Schemeis provided /app/docs
+1. Schema is provided /app/docs
