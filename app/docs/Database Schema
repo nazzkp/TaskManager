@@ -2,8 +2,16 @@ CREATE TABLE tasks (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     title TEXT ,
     description TEXT ,
-    priority TEXT CHECK(priority IN ('LOW', 'MEDIUM', 'HIGH')) ,
+    priority TEXT CHECK(priority IN ("LOW", "MEDIUM", "HIGH")) ,
     dueDate TEXT ,
     isCompleted BOOLEAN DEFAULT FALSE ,
     position INTEGER
     )
+    
+    INSERT INTO tasks (title, description, priority, dueDate, isCompleted, position) VALUES
+    ("Buy Groceries", "Purchase vegetables, fruits, and dairy", "MEDIUM", "2025-03-10", FALSE, 1),
+    ("Finish Report", "Complete the monthly financial report", "HIGH", "2025-03-12", FALSE, 2),
+    ("Read a Book", "Finish reading the current novel", "LOW", "2025-03-20", TRUE, 3),
+    ("Doctor Appointment", "Annual check-up with the doctor", "MEDIUM", "2025-03-15", FALSE, 4),
+    ("Workout Session", "Morning workout for 30 minutes", "LOW", "2025-03-09", TRUE, 5),
+    ("Pay Bills", "Pay electricity and internet bills", "HIGH", "2025-03-14", FALSE, 6);
